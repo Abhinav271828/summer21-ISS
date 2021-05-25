@@ -8,7 +8,7 @@ Most of the course content can be found ![here](https://serciiit.gitbook.io/intr
 ## Course Outline
 
 ## Lecture Contents
-* Lecture 1 (25 May)
+* Lecture 1 (25 May, Tuesday)
     - Systems
     - System and Application Software
     - The Shell
