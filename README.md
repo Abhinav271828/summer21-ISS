@@ -3,7 +3,7 @@
 
 A collection of notes and resources for the Introduction to Software Systems course at IIIT Hyderabad.
 
-Most of the course content can be found ![here](https://serciiit.gitbook.io/introduction-to-software-systems/ "here").
+Most of the course content can be found [here](https://serciiit.gitbook.io/introduction-to-software-systems/).
 
 ## Course Outline
 
