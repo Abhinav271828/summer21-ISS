@@ -22,7 +22,6 @@ A system may be natural or engineered. Further, all systems have boundaries beyo
 Systems software fundamentally helps to communicate with hardware, at a much lower level. Application software, on the other hand, is higher-level programming.
 
 ![](hierarchy.png)
-
 ## The Shell
 The kernel executes all the commands we give it through the shell.  
 The shell is a program (command-line interpreter) that allows the user to interact with the Unix/Linux system. Examples of shells are `sh` (Bourne shell), `bash` (Bourne again shell), `zsh` (Z shell), etc.
