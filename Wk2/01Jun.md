@@ -11,23 +11,31 @@ To print or access the value of a variable, its name must be prefixed with `$`.
 
 If statements have the following syntax:
     
-    if cond
+    if test [-flags] <expression>
         then
         block
     fi
     
-The condition should be preceded by the `test` command.  
-When a variable is to be printed, its name has to be enclosed in single quotes, as in `'$v_name'`. When it has to be compared or passed, it must be enclosed in double quotes, as in `"$v_name"`. 
+The `test` command evaluates the expression. It returns 0 if the expression is true, 1 if it is false or missing, and > 1 if an error occurs.  
+When a variable is passed, it must be enclosed in double quotes, as in `"$v_name"`. 
 
-There are some _special variables_. `$0` holds the name of the command being executed and `$1` to `$9` hold the command-line arguments passed to the executable file. `$?` represents the outcome of the previous command; it is 0 in case the command was executed successfully.  
+There are some special variables; for example,
+
+* `$0` holds the name of the command being executed and `$1` to `$9` hold the command-line arguments passed to the executable file.
+* `$#` holds the number of arguments passed.
+* `$@` holds the list of arguments passed.
+* `$?` holds the error code of the previous command; it is 0 in case the command was executed successfully.
+* `$$` holds the PID of the command.
+
 
 ## Piping and Redirection
-We use piping to pass the output of one command to another command as input. For example, if we want to know the number of files in a folder, we can run count the number of words in the output of the `ls` command, as `ls -a | wc -l`.
-We can also redirect output, as in `cat hello.txt > /dev/stdout`. `>` redirects content from file to file.  
+We can access the output of a command _as a variable_ using the `$(command)` syntax, as in `$(pwd)` or `$(date)`.  
+We use piping to pass the output of one command to another command as input. For example, if we want to know the number of files in a folder, we can run `wc` to count the number of words or lines in the output of the `ls` command, as `ls | wc` or `ls -a | wc -l`.
+We can also redirect output to a file, as in `cat hello.txt > /dev/stdout`. `>` redirects the output of the first command; we can also use `2>` to redirect its error code.  
 To redirect an environmental variable to a file, we need to use `>>`; for example, `echo $HOSTNAME >> $HOSTNAME"_stats.txt"`.  
 To run a command _inside_ an `echo` statement, use backticks, as in ``echo `uname -a` > file.txt``.  
 
-## Expressions
+## Maths Expressions
 There are multiple ways to evaluate mathematical expressions in the shell.  
 1. `let v_name=<expression>`. This does not print the value; to print it, we run `echo $v_name`.  
 2. `expr <expression>` evaluates and prints the value, but the values in the expression should be space-separated (they are distinct arguments to `expr`).  
