@@ -1,6 +1,6 @@
 # Introduction to Software Systems (CS6.201)
 ## Summer 2021, IIIT Hyderabad
-## 27 May, Tuesday (Lecture 2)
+## 27 May, Thursday (Lecture 2)
 
 Taught by Sai Anirudh Karri
 
@@ -20,4 +20,7 @@ A progam called the bootstrapper is present in the ROM, which loads the OS from 
 
 ## The Shell
 The shell is a program (a command-line interpreter) that allows the user to interact with the Unix/Linux system. The commands' names are standardised by the American National Standards Institute (ANSI).  
+
+There are some values stored by the operating system, called environmental variables, to specify various configurations or settings related to the computer and to the shell (the home directory, the present working directory, the shell, the user, etc.). The `env` command prints a list of the environmental variables.
+
 
