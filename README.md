@@ -19,4 +19,4 @@ Most of the course content can be found [here](https://serciiit.gitbook.io/intro
 * Lecture 3 (01 June, Tuesday)
     - Shell Variables
     - Piping and Redirection
-    - Expressions
+    - Maths Expressions
