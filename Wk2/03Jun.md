@@ -19,7 +19,7 @@ Search-and-replace can be run on the contents of an array; for example `${list[*
         code
     done
 
-In case of a variable range, one can use the syntax `{1..5}`. If one does not want to use consecutive numbers, the `$(seq 1 4 20)` (for instance) syntax runs the loop with values 1, 5, 11, and so on.
+In case of a variable range, one can use the syntax `{1..n}`. If one does not want to use consecutive numbers, the `$(seq b step until)` syntax runs the loop with values `b`, `b+step`, and so on till `until`.
 
 `while` loops are similar:
     
@@ -31,7 +31,7 @@ In case of a variable range, one can use the syntax `{1..5}`. If one does not wa
 Just like in if statements, the condition needs to have the `test` command or be enclosed in square brackets.  
 
 ## Switch case
-Switch case stements have the following syntax:
+Switch case statements have the following syntax:
 
     case <expr> in
         case_1 ) code1 ;;
