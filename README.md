@@ -10,19 +10,21 @@ Most of the course content can be found [here](https://serciiit.gitbook.io/intro
 - [ ] The Shell; Bash Programming
 
 ## Lecture Contents
-* Lecture 1 (25 May, Tuesday)
-    - Systems
-    - System and Application Software
-    - The Shell
-* Lecture 2 (27 May, Thursday)
-    - History of the Shell
-    - Components of a Computer
-    - The Shell
-* Lecture 3 (01 June, Tuesday)
-    - Shell Variables
-    - Piping and Redirection
-    - Maths Expressions
-* Lecture 4 (03 June, Thursday)
-    - Arrays
-    - Loops
-    - Switch Case
+* Week 1
+    * Lecture 1 (25 May, Tuesday)
+        - Systems
+        - System and Application Software
+        - The Shell
+    * Lecture 2 (27 May, Thursday)
+        - History of the Shell
+        - Components of a Computer
+        - The Shell
+* Week 2
+    * Lecture 3 (01 June, Tuesday)
+        - Shell Variables
+        - Piping and Redirection
+        - Maths Expressions
+    * Lecture 4 (03 June, Thursday)
+        - Arrays
+        - Loops
+        - Switch Case
