@@ -6,6 +6,8 @@ A collection of notes and resources for the Introduction to Software Systems (IS
 Most of the course content can be found [here](https://serciiit.gitbook.io/introduction-to-software-systems/).
 
 ## Course Outline
+- [x] Introduction
+- [ ] The Shell; Bash Programming
 
 ## Lecture Contents
 * Lecture 1 (25 May, Tuesday)
@@ -20,3 +22,7 @@ Most of the course content can be found [here](https://serciiit.gitbook.io/intro
     - Shell Variables
     - Piping and Redirection
     - Maths Expressions
+* Lecture 4 (03 June, Thursday)
+    - Arrays
+    - Loops
+    - Switch Case
