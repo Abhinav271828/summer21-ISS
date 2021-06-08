@@ -1,6 +1,6 @@
 # Introduction to Software Systems (CS6.201)
 ## Summer 2021, IIIT Hyderabad
-## 25 May, Tuesday (Lecture 1)
+## 25 May, Tuesday (Lecture 1) – Introduction
 
 Taught by Prof. Raghu Reddy
 

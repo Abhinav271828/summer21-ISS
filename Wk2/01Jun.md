@@ -1,6 +1,6 @@
 # Introduction to Software Systems (CS6.201)
 ## Summer 2021, IIIT Hyderabad
-## 01 June, Tuesday (Lecture 3)
+## 01 June, Tuesday (Lecture 3) – Bash Programming 1
 
 Taught by Sai Anirudh Karri
 

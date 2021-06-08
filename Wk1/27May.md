@@ -1,6 +1,6 @@
 # Introduction to Software Systems (CS6.201)
 ## Summer 2021, IIIT Hyderabad
-## 27 May, Thursday (Lecture 2)
+## 27 May, Thursday (Lecture 2) – Introduction to the Shell
 
 Taught by Sai Anirudh Karri
 
