@@ -33,4 +33,3 @@ Most of the course content can be found [here](https://serciiit.gitbook.io/intro
     * Lecture 5 (08 June, Tuesday)
         - History of Web Technologies
         - HTML
-        - 
