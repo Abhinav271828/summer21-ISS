@@ -7,7 +7,8 @@ Most of the course content can be found [here](https://serciiit.gitbook.io/intro
 
 ## Course Outline
 - [x] Introduction
-- [ ] The Shell; Bash Programming
+- [x] The Shell; Bash Programming
+- [ ] Web Technologies
 
 ## Lecture Contents
 * Week 1
@@ -28,3 +29,8 @@ Most of the course content can be found [here](https://serciiit.gitbook.io/intro
         - Arrays
         - Loops
         - Switch Case
+* Week 3
+    * Lecture 5 (08 June, Tuesday)
+        - History of Web Technologies
+        - HTML
+        - 
