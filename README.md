@@ -33,3 +33,7 @@ Most of the course content can be found [here](https://serciiit.gitbook.io/intro
     * Lecture 5 (08 June, Tuesday)
         - History of Web Technologies
         - HTML
+    * Lecture 6 (10 June, Thursday)
+        - CSS
+        - Ways to Use CSS (Inline, Internal, External)
+        - Syntax
