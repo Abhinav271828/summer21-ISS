@@ -1,6 +1,6 @@
 # Introduction to Software Systems (CS6.201)
 ## Summer 2021, IIIT Hyderabad
-## 07 June, Tuesday (Lecture 5)
+## 08 June, Tuesday (Lecture 5)
 
 Taught by Sai Anirudh Karri
 
