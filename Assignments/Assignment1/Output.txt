@@ -1,0 +1,4 @@
+Hello world name bani world, 0 
+yes meln world hello, .25 
+hello hello hello, 1.00 
+contains two occurrences world world world, 0 

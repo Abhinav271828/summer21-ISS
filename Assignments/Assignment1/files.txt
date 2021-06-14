@@ -1,0 +1,18 @@
+Assignment1.pdf 184607
+Output.txt 132
+Q1.sh 286
+Q2.sh 661
+Q3.sh 1045
+Q4.sh 1077
+Q5.sh 1707
+Q6.sh 4530
+contacts.csv 98
+dirs.txt 13
+files.txt 130
+hello world.txt 127
+ip.txt 127
+sortdirs.txt 14
+sortfiles.txt 270
+stopwords.txt 614
+temp.txt 28
+dummy file 0

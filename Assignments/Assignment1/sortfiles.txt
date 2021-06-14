@@ -1,0 +1,18 @@
+184607 Assignment1.pdf 
+4530 Q6.sh 
+1707 Q5.sh 
+1077 Q4.sh 
+1045 Q3.sh 
+661 Q2.sh 
+614 stopwords.txt 
+286 Q1.sh 
+270 sortfiles.txt 
+132 Output.txt 
+130 files.txt 
+127 ip.txt 
+127 hello world.txt 
+98 contacts.csv 
+28 temp.txt 
+14 sortdirs.txt 
+13 dirs.txt 
+0 dummy file 
