@@ -40,3 +40,4 @@ Most of the course content can be found [here](https://serciiit.gitbook.io/intro
 * Week 4
     * Lecture 7 (15 June, Tuesday)
         - JavaScript
+        - Variables and Operators
