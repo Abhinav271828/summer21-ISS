@@ -41,3 +41,8 @@ Most of the course content can be found [here](https://serciiit.gitbook.io/intro
     * Lecture 7 (15 June, Tuesday)
         - JavaScript
         - Variables and Operators
+    * Lecture 8 (17 June, Thursday)
+        - Conditional Expressions
+        - Functions
+        - Loops
+        - OOPS
