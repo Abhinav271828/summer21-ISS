@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>JS Literals</title>
+<script>
+
+let range = {
+  from: 21,
+  to: 25
+};
+
+// 1. call to for..of initially calls this
+range[Symbol.iterator] = function() {
+
+  // ...it returns the iterator object:
+  // 2. Onward, for..of works only with this iterator, asking it for next values
+  return {
+    current: this.from,
+    last: this.to,
+
+    // 3. next() is called on each iteration by the for..of loop
+    next() {
+      // 4. it should return the value as an object {done:.., value :...}
+      if (this.current <= this.last) {
+        return { done: false, value: this.current++ };
+      } else {
+        return { done: true };
+      }
+    }
+  };
+};
+
+// now it works!
+for (let num of range) {
+  alert("Printing from Symbol.iterator:" +num); // 21, then 22, 23, 24, 25
+}
+</script>
+    
+    
+<script>
+let arr ={
+    0:"Welcome",
+    1:"To",
+    2:"Monday Class",
+    length:3
+    };
+    
+    let at = Array.from(arr);
+    at.pop();
+    document.write(at);
+    
+</script>    
+</head>
+</html> 

@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>JS Map </title>
+<script>
+
+    let mapexample = new Map();
+    mapexample.set(1, 'Monday Class'); //String Key
+    mapexample.set('1','Ganguly'); //Numeric Key
+    mapexample.set(true, 'Tagore') //boolean key
+    
+    document.write("<br>");
+    document.write(mapexample.get(1));
+    document.write("<br>");
+    document.write(mapexample.get(false));
+    document.write("<br>");
+    document.write(mapexample.size);
+    
+    let mapexample2 = new Map();
+    mapexample2.set(1,'NumType')
+        .set('Sachin','100*100')
+        .set(false,'TuesdayClass');
+    
+    document.write("<br>");
+    document.write("<br>");
+    document.write("Printing from Second Map");
+    document.write("<br>");
+    document.write(mapexample2.size);
+        
+</script> 
+</head>
+</html>

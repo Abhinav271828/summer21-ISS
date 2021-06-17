@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>JS Try Catch Finally</title>
+<script>
+
+    try{
+        
+        //execute this logic first
+        asdadfasdfasdfdasd;
+        document.write("This is from Try block")
+        
+    }
+    catch(err){
+        
+        //execute if try fails and throw error
+        document.write("<br>");
+        document.write("This is from Catch block")
+        document.write("<br>");
+        document.write(err);
+        document.write("<br>");
+        document.write(err.name);
+        document.write("<br>");
+        document.write(err.message);
+        document.write("<br>");
+        document.write(err.stack);
+        
+    }
+    
+    //execute this even if all are dead
+    finally{
+        document.write("<br>");
+        document.write("This is from finally")
+    }
+    
+</script> 
+</head>
+</html>

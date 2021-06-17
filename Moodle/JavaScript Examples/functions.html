@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>JS Functions</title>
+<script>
+//Local Variable Example
+function showMessage() {
+  let message = "Hello, I'm Local Variable 'message'!"; // local variable
+
+  alert( message );
+}
+showMessage(); // Hello, I'm JavaScript!
+alert( message ); // <-- Error! The variable is local to the function    
+</script>
+    
+    
+    
+<script>
+// Global Variable Example
+let userName = 'Class'; 
+function showMessage() {
+  let message = 'Hello, ' + userName + '- From Global Variable';
+  alert(message);
+}
+showMessage(); // Hello, Class  
+</script>    
+    
+    
+<script>
+//Function with Arguments    
+function showMessage(from, text) { // arguments: from, text
+  alert(from + ': ' + text);
+}
+
+showMessage('Sai', 'Good Day to Class!'); 
+showMessage('Sai', "How were your Exams?");   
+</script> 
+    
+<script>    
+//Function with return values
+    function add(a, b) {
+  return a + b;
+}
+let result = add(14, 22);
+alert( result ); // 3
+</script>
+    
+</head>
+</html> 

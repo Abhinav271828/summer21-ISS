@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>JS Class Object</title>
+<script>
+class Point {
+  constructor(x, y) {
+    this.x = x;
+    this.y = y;
+  }
+
+//Static methods aren't called on instances of the class. Instead, they're called on the class itself.
+  static distance(a, b) {
+    const dx = a.x - b.x;
+    const dy = a.y - b.y;
+
+    return Math.hypot(dx, dy);
+  }
+}
+
+//The const keyword currently declares the constant in the function scope
+const p1 = new Point(5, 5);
+const p2 = new Point(10, 10);
+
+document.write(Point.distance(p1, p2));
+
+    
+</script> 
+</head>
+</html>    

@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>JS Type Conversion</title>
+<script>
+    document.write("<br>");
+    document.write("String Conversion");
+    let v = true;
+    t = typeof(v);
+    document.write("<br>");
+    document.write(t) // Current Type is Boolean
+    
+    v = String(v);
+    t = typeof(v);
+    document.write("<br>");
+    document.write(t) //Converted to String
+    document.write("<br>");
+    document.write("===================");
+</script>   
+    
+    
+    <script>
+    document.write("<br>");
+    document.write("Numeric Conversion");
+    let n = "345";
+    m = typeof(n);
+    document.write("<br>");
+    document.write(m) // Current Type is Boolean
+    
+    n = Number(n);
+    m = typeof(n);
+    document.write("<br>");
+    document.write(m) //Converted to String
+    document.write("<br>");
+    document.write("===================");
+    
+</script> 
+    
+    
+     <script>
+    document.write("<br>");
+    document.write("Boolean Conversion");
+    o = Boolean(1)
+    document.write("<br>");
+    document.write(o) 
+    l = Boolean(0)
+    document.write("<br>");
+    document.write(l) 
+    document.write("<br>");
+    document.write(Boolean("Hello Class"));
+    document.write("<br>");
+    document.write(Boolean(""));
+    document.write("<br>");
+    document.write("===================");
+    
+</script> 
+    
+    
+    
+     <script>
+    document.write("<br>");
+    document.write("Additiona Examples");
+    a = Number(" 4567 ")
+    document.write("<br>");
+    document.write(a);
+    b = Number("4567zx")
+         document.write("<br>");
+    document.write(b);
+    c = Number(true)
+         document.write("<br>");
+    document.write(c);
+    d = Number(false)
+         document.write("<br>");
+    document.write(d);
+    e = 1 + '2'
+         document.write("<br>");
+    document.write(e);
+    f = '1'+ 2
+        document.write("<br>");
+    document.write(f);
+    
+</script> 
+</head>
+</html>

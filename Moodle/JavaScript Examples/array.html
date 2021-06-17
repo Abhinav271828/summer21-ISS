@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>JS Array</title>
+<script>
+    document.write("This is before Array Logic");
+    let iiit = new Array("MS", "BTech", "MTech", "PhD", "Post Doc","BSc");
+    document.write("<br>");
+    document.write("<br>");
+    document.write("Sixth Element in Array before Update: ");
+    document.write(iiit[5]);
+    document.write("<br>");
+    document.write("<br>");
+    document.write("<br>");
+    document.write("Sixth Element in Array after Update: ");
+    iiit[5] = 'Diploma';   
+    document.write(iiit[5]);
+    document.write("<br>");
+    document.write("<br>");
+</script>  
+    
+<script>
+    document.write("Printing Array Values: ");
+    document.write(iiit);
+    iiit.shift();
+    document.write("<br>");
+    document.write("<br>");
+    document.write("Printing Array Values after Shift: ");
+    document.write(iiit);
+    document.write("<br>");
+    document.write("<br>");
+    document.write("Printing Array Values after UnShift: ");
+     iiit.unshift('CCC');
+    document.write(iiit);
+</script>    
+    
+<script>
+    document.write("Printing Array Values: ");
+    document.write(iiit);
+    iiit.push("LTRC","SERC","ROBOTICS");
+    document.write("<br>");
+    document.write("<br>");
+    document.write("Printing Array Value after Push: ");
+    document.write(iiit);
+    document.write("<br>");
+    document.write("<br>");
+    document.write("Printing Array Values after Pop: ");
+     iiit.pop();
+    document.write(iiit);
+</script>      
+    
+    
+</head>
+</html>

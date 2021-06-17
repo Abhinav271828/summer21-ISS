@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>JS Class (SET GET) Object</title>
+<script>
+  class User {
+  constructor(name) {
+    this.name = name;
+  }
+
+  get name() {
+    return this._name;
+  }
+
+  set name(value) {
+    if (value.length < 4) {
+        document.write("<br>");
+      document.write("Name is too short.");
+        document.write("<br>");
+      return;
+    }
+    this._name = value;
+  }
+
+}
+
+let user = new User("John");
+document.write(user.name); // John
+document.write("<br>");
+user = new User(""); // Name too short.
+    document.write("<br>");
+    
+</script> 
+</head>
+</html>    

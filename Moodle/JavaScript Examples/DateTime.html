@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>JS Date Time Functions</title>
+
+<script>
+document.write("Execution Script for GET methods")
+document.write("<br>")
+document.write("<br>")
+let today = new Date();
+    document.write(today);
+    document.write("<br>")
+    document.write(today.getHours());
+    document.write("<br>")
+    document.write(today.getUTCHours());
+    document.write("<br>")
+    document.write(today.getFullYear());
+    document.write("<br>")
+    document.write("<br>")
+</script>
+    
+    
+<script>
+document.write("Execution Script for SET methods")
+document.write("<br>")
+document.write("<br>")
+let CurrentTime = new Date(), UpdatedTime = new Date(); 
+UpdatedTime.setHours(CurrentTime.getHours()-5);
+UpdatedTime.setMinutes(CurrentTime.getMinutes()-30);
+document.write('Updated Time: ' + UpdatedTime);
+document.write('<br>');
+document.write('Current Tume: ' + CurrentTime);
+</script>    
+    
+</head>
+</html> 
