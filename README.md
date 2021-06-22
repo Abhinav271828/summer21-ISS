@@ -46,3 +46,8 @@ Most of the course content can be found [here](https://serciiit.gitbook.io/intro
         - Functions
         - Loops
         - OOPS
+* Week 5
+    * Lecture 9 (22 June, Tuesday)
+        - Arrays
+        - Maps
+        - Frameworks
