@@ -8,7 +8,8 @@ Most of the course content can be found [here](https://serciiit.gitbook.io/intro
 ## Course Outline
 - [x] Introduction
 - [x] The Shell; Bash Programming
-- [ ] Web Technologies
+- [x] Web Technologies
+- [ ] Python
 
 ## Lecture Contents
 * Week 1
@@ -30,24 +31,30 @@ Most of the course content can be found [here](https://serciiit.gitbook.io/intro
         - Loops
         - Switch Case
 * Week 3
-    * Lecture 5 (08 June, Tuesday)
+    * Lecture 5 (08 June, Tuesday) – HTML
         - History of Web Technologies
         - HTML
-    * Lecture 6 (10 June, Thursday)
+    * Lecture 6 (10 June, Thursday) – CSS
         - CSS
         - Ways to Use CSS (Inline, Internal, External)
         - Syntax
 * Week 4
-    * Lecture 7 (15 June, Tuesday)
+    * Lecture 7 (15 June, Tuesday) – JavaScript 1
         - JavaScript
         - Variables and Operators
-    * Lecture 8 (17 June, Thursday)
+    * Lecture 8 (17 June, Thursday) – JavaScript 2
         - Conditional Expressions
         - Functions
         - Loops
         - OOPS
 * Week 5
-    * Lecture 9 (22 June, Tuesday)
+    * Lecture 9 (22 June, Tuesday) – JavaScript 3
         - Arrays
         - Maps
         - Frameworks
+* Week 6
+    * Lecture 10 (29 June, Tuesday) – Python 1
+        - Python
+        - Variables
+        - Conditionals
+        - Loops
