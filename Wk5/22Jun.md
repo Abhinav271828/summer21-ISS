@@ -1,6 +1,6 @@
 # Introduction to Software Systems (CS6.201)
 ## Summer 2021, IIIT Hyderabad
-## 17 June, Thursday (Lecture 8) – 
+## 22 June, Tuesday (Lecture 9) – JavaScript 3
 
 Taught by Sai Anirudh Karri
 
