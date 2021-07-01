@@ -58,3 +58,10 @@ Most of the course content can be found [here](https://serciiit.gitbook.io/intro
         - Variables
         - Conditionals
         - Loops
+    * Lecture 11 (01 July, Thursday) – Python 2
+        - Modules
+        - Lists, Tuples, Sets and Dictionaries
+            - Lists
+            - Tuples
+            - Sets
+            - Dictionaries
