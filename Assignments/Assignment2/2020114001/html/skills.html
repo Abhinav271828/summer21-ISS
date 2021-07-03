@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="../css/styles.css"/>
+<title>Skills</title>
+<body id="skills">
+    <nav>
+        <h1 style="color:cyan">Skills</h1>
+        <a class="navig" href="index.html" onmouseenter="turn_y(this)" onmouseleave="turn_w(this)">
+        Home</a>
+        <a class="navig" href="skills.html" onmouseenter="turn_y(this)" onmouseleave="turn_w(this)">
+        Skills</a>
+        <a class="navig" href="educ.html" onmouseenter="turn_y(this)" onmouseleave="turn_w(this)">
+        Education</a>
+        <a class="navig" href="slideshow.html" onmouseenter="turn_y(this)" onmouseleave="turn_w(this)">
+        Slideshow</a>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p class="intro">
+    Hello! On this page you can find a list of my skills.
+    </p>
+
+    <h2>My Skills</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <br>
+        <label for="skill">Skill:</label>
+        <input type="text" id="skill">
+        <br>
+        <label for="level">Level:</label>
+        <select id="level">
+            <option value="">N/A<option>
+            <option value="Proficient">Proficient</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Beginner">Beginner</option>
+        </select>
+    </form>
+    <br>
+    <button type="button" onClick="addRow()">Submit</button>
+    <br>
+    <br>
+    <br>
+    <table border=1>
+    <thead>
+    <tr>
+        <th>NAME</th>
+        <th>SKILL</th>
+        <th>LEVEL</th> </tr> <thead>
+    </table>
+<script src="../js/script1.js"></script>
+</body>
+</html>
+
