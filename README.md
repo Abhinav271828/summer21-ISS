@@ -65,3 +65,9 @@ Most of the course content can be found [here](https://serciiit.gitbook.io/intro
             - Tuples
             - Sets
             - Dictionaries
+* Week 7
+    * Lecture 12 (06 July, Tuesday) – Python 3
+        - Functions and Methods
+        - File Manipulation
+            - Opening and Closing
+            - File Processing
