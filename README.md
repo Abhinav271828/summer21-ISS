@@ -71,3 +71,8 @@ Most of the course content can be found [here](https://serciiit.gitbook.io/intro
         - File Manipulation
             - Opening and Closing
             - File Processing
+    * Lecture 13 (08 July, Thursday) – Python 4
+        - Try-Catch Blocks
+        - Lambdas
+        - Extended Arguments
+        - Higher-Order Functions
