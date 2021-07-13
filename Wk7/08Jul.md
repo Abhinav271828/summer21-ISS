@@ -59,7 +59,7 @@ A closure is a function that returns a function. For example,
     
     def add(x,y):
         def add_closure():
-            print('Adding {} + {}'.format(x,y,x+y)
+            print('Adding {} + {}'.format(x,y)
             return x+y
         return add_closure
 
