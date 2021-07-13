@@ -76,3 +76,9 @@ Most of the course content can be found [here](https://serciiit.gitbook.io/intro
         - Lambdas
         - Extended Arguments
         - Higher-Order Functions
+* Week 8
+    * Lecture 14 (13 July, Tuesday) – Python 5
+        * Flask
+            - Introduction
+            - Verbs
+            - Writing an Application
