@@ -1,0 +1,48 @@
+[
+{
+"fields": {
+"profession": "Healthcare", "travel": "No",
+"symptomatic": "No" },
+"results": "High Risk" },
+{
+"fields": {
+"profession": "Healthcare",
+"travel": "No",
+"symptomatic": "Yes" },
+"results": "High Risk" },
+{
+"fields": {
+"profession": "Healthcare",
+"travel": "Yes",
+"symptomatic": "Yes" },
+"results": "High Risk" },
+{
+"fields": {
+"profession": "IT", "travel": "No", "symptomatic": "No"
+},
+"results": "Low Risk" },
+{
+"fields": {
+"profession": "IT", "travel": "Yes",
+"symptomatic": "No" },
+"results": "Moderate Risk" },
+{
+"fields": { "profession": "IT", "travel": "Yes", "symptomatic": "Yes"
+},
+"results": "High Risk" },
+{
+"fields": {
+"profession": "Police", "travel": "No", "symptomatic": "No"
+},
+"results": "Moderate Risk"
+}, {
+"fields": {
+"profession": "Police", "travel": "Yes",
+"symptomatic": "No" },
+"results": "High Risk" },
+{
+"fields": {
+"profession": "Police", "travel": "Yes", "symptomatic": "Yes"
+},
+"results": "High Risk" }
+]
