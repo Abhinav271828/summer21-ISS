@@ -25,7 +25,7 @@ app = Flask(__name__)
 This command gives a unique name to the application `app`.  
 
 Now, in order to tell the application what request it needs to make, we need to use a decorator with a method. A decorator is written in the following way:
-```
+```py
 @app.route("/")
 def home():
     return "HelloWorld"
