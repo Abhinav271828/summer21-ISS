@@ -82,3 +82,6 @@ Most of the course content can be found [here](https://serciiit.gitbook.io/intro
             - Introduction
             - Verbs
             - Writing an Application
+    * Lecture 15 (15 July, Thursday) - Databases
+        * SQLite
+        * MySQL
