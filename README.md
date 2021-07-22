@@ -9,7 +9,7 @@ Most of the course content can be found [here](https://serciiit.gitbook.io/intro
 - [x] Introduction
 - [x] The Shell; Bash Programming
 - [x] Web Technologies
-- [ ] Python
+- [x] Python
 
 ## Lecture Contents
 * Week 1
@@ -85,3 +85,5 @@ Most of the course content can be found [here](https://serciiit.gitbook.io/intro
     * Lecture 15 (15 July, Thursday) - Databases
         * SQLite
         * MySQL
+* Week 9
+    * Lecture 16 (22 July, Thursday) – SDCL
