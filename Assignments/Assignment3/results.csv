@@ -1,0 +1,8 @@
+Email,Profession,Travel,Symptomatic,Chronic,Results
+a.b@research.iiit.ac.in,Healthcare,No,No,Yes,High Risk
+b.c@research.iiit.ac.in,IT,No,No,Yes,Low Risk
+c.d@research.iiit.ac.in,Police,No,No,Yes,No Access
+d.e@research.iiit.ac.in,Police,No,No,No,No Access
+e.f@research.iiit.ac.in,Healthcare,No,Yes,Yes,High Risk
+f.g@research.iiit.ac.in,IT,Yes,No,No,Moderate Risk
+g.h@research.iiit.ac.in,IT,No,No,No,No Access

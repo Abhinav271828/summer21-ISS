@@ -1,48 +1,160 @@
-[
-{
-"fields": {
-"profession": "Healthcare", "travel": "No",
-"symptomatic": "No" },
-"results": "High Risk" },
-{
-"fields": {
-"profession": "Healthcare",
-"travel": "No",
-"symptomatic": "Yes" },
-"results": "High Risk" },
-{
-"fields": {
-"profession": "Healthcare",
-"travel": "Yes",
-"symptomatic": "Yes" },
-"results": "High Risk" },
-{
-"fields": {
-"profession": "IT", "travel": "No", "symptomatic": "No"
+[ {
+    "fields": {
+        "profession": "Healthcare",
+        "travel": "No",
+        "symptomatic": "No",
+        "chronic": "Yes"
+        },
+    "status": "Active",
+    "results": "High Risk"
 },
-"results": "Low Risk" },
 {
-"fields": {
-"profession": "IT", "travel": "Yes",
-"symptomatic": "No" },
-"results": "Moderate Risk" },
-{
-"fields": { "profession": "IT", "travel": "Yes", "symptomatic": "Yes"
+    "fields": {
+        "profession": "Healthcare",
+        "travel": "No",
+        "symptomatic": "Yes",
+        "chronic": "Yes"
+        },
+    "status": "Active",
+    "results": "High Risk"
 },
-"results": "High Risk" },
 {
-"fields": {
-"profession": "Police", "travel": "No", "symptomatic": "No"
+     "fields": {
+         "profession": "Healthcare",
+         "travel": "Yes",
+         "symptomatic": "Yes",
+         "chronic": "Yes"
+         },
+    "status": "Active",
+    "results": "High Risk"
 },
-"results": "Moderate Risk"
-}, {
-"fields": {
-"profession": "Police", "travel": "Yes",
-"symptomatic": "No" },
-"results": "High Risk" },
 {
-"fields": {
-"profession": "Police", "travel": "Yes", "symptomatic": "Yes"
+    "fields": {
+        "profession": "IT",
+        "travel": "No",
+        "symptomatic": "No",
+        "chronic": "Yes"
+        },
+    "status": "Active",
+    "results": "Low Risk"
 },
-"results": "High Risk" }
-]
+{
+    "fields": {
+        "profession": "IT",
+        "travel": "Yes",
+        "symptomatic": "No",
+        "chronic": "Yes"
+        },
+     "status": "Active",
+     "results": "Moderate Risk"
+},
+{
+    "fields": {
+        "profession": "IT",
+        "travel": "Yes",
+        "symptomatic": "Yes",
+        "chronic": "Yes"
+        },
+    "status": "Active",
+    "results": "High Risk"
+},
+{
+    "fields": {
+        "profession": "Police",
+        "travel": "No",
+        "symptomatic": "No",
+        "chronic": "Yes"
+        },
+    "status": "In Active",
+    "results": "Moderate Risk"
+},
+{
+    "fields": {
+        "profession": "Police",
+        "travel": "No",
+        "symptomatic": "Yes",
+        "chronic": "Yes"
+        },
+    "status": "Active",
+    "results": "High Risk"
+},
+{
+    "fields": {
+        "profession": "Police",
+        "travel": "Yes",
+        "symptomatic": "No",
+        "chronic": "Yes"
+        },
+    "status": "Active",
+    "results": "High Risk"
+},
+{
+    "fields": {
+        "profession": "Police",
+        "travel": "Yes",
+        "symptomatic": "Yes",
+        "chronic": "Yes"
+        },
+    "status": "Active",
+    "results": "High Risk"
+},
+{
+    "fields": {
+        "profession": "Healthcare",
+        "travel": "No",
+        "symptomatic": "No",
+        "chronic": "No"
+        },
+    "status": "Active",
+    "results": "High Risk"
+},
+{
+    "fields": {
+        "profession": "Healthcare",
+        "travel": "No",
+        "symptomatic": "Yes",
+        "chronic": "Yes"
+        },
+    "status": "Active",
+    "results": "High Risk"
+},
+{
+    "fields": {
+        "profession": "Healthcare",
+        "travel": "Yes",
+        "symptomatic": "Yes",
+        "chronic": "No"
+        },
+    "status": "Active",
+    "results": "High Risk"
+},
+{
+    "fields": {
+        "profession": "Healthcare",
+        "travel": "Yes",
+        "symptomatic": "No",
+        "chronic": "No"
+        },
+    "status": "In Active",
+    "results": "High Risk"
+},
+{
+    "fields": {
+        "profession": "IT",
+        "travel": "No",
+        "symptomatic": "No",
+        "chronic": "No"
+        },
+    "status": "In Active",
+    "results": "Low Risk"
+},
+{
+    "fields": {
+        "profession": "IT",
+        "travel": "Yes",
+        "symptomatic": "No",
+        "chronic": "No"
+        },
+    "status": "Active",
+    "results": "Moderate Risk"
+}]

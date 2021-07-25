@@ -1,0 +1,8 @@
+Email,Profession,Travel,Symptomatic,Chronic,Status
+a.b@research.iiit.ac.in,Healthcare,No,No,Yes,Active
+b.c@research.iiit.ac.in,IT,No,No,Yes,In Active
+c.d@research.iiit.ac.in,Police,No,No,Yes,Active
+d.e@research.iiit.ac.in,Police,No,No,No,Active
+e.f@research.iiit.ac.in,Healthcare,No,Yes,Yes,In Active
+f.g@research.iiit.ac.in,IT,Yes,No,No,Active
+g.h@research.iiit.ac.in,IT,No,No,No,In Active
