@@ -10,6 +10,7 @@ Most of the course content can be found [here](https://serciiit.gitbook.io/intro
 - [x] The Shell; Bash Programming
 - [x] Web Technologies
 - [x] Python
+- [x] SQLite & SQL
 
 ## Lecture Contents
 * Week 1
